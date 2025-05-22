@@ -1,0 +1,48 @@
+modelarnia-gdanska-theme/
+├── style.css                  # Main theme stylesheet
+├── functions.php              # Theme functions and setup
+├── index.php                  # Main template file
+├── header.php                 # Header template
+├── footer.php                 # Footer template
+├── front-page.php             # Homepage template
+├── page.php                   # Default page template
+├── single.php                 # Single post template
+├── archive.php                # Archive template
+├── search.php                 # Search results template
+├── 404.php                    # 404 error page
+├── screenshot.png             # Theme screenshot for WP admin
+├── page-templates/            # Custom page templates
+│   ├── page-projects.php      # Projects page template
+│   ├── page-guide.php         # 3D Printing Guide template
+│   └── page-store.php         # Store page template
+├── template-parts/            # Reusable template parts
+│   ├── content-page.php       # Page content template part
+│   ├── content-post.php       # Post content template part
+│   ├── hero.php               # Hero section template part
+│   ├── about.php              # About section template part
+│   ├── services.php           # Services section template part
+│   ├── process.php            # Process steps template part
+│   ├── gallery.php            # Gallery template part
+│   ├── testimonials.php       # Testimonials template part
+│   ├── faq.php                # FAQ section template part
+│   └── contact.php            # Contact form template part
+├── inc/                       # Theme includes
+│   ├── customizer.php         # Theme customizer options
+│   ├── template-functions.php # Template helper functions
+│   └── widgets.php            # Custom widget areas
+├── assets/                    # Theme assets
+│   ├── css/                   # Additional CSS files
+│   │   └── tailwind-output.css # Compiled Tailwind CSS
+│   ├── js/                    # JavaScript files
+│   │   ├── scripts.js         # Main theme JavaScript
+│   │   └── animations.js      # Animation scripts
+│   ├── images/                # Theme images
+│   │   ├── logo.png           # Site logo
+│   │   ├── workshop.jpg       # Workshop image
+│   │   ├── 3d-printer.jpg     # 3D printer image
+│   │   └── team.jpg           # Team photo
+│   └── fonts/                 # Custom fonts
+└── languages/                 # Translation files
+    ├── modelarnia-gdanska.pot # Translation template
+    ├── pl_PL.po               # Polish translation
+    └── pl_PL.mo               # Compiled Polish translation
